@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Museum of Forgotten Futures</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #282c34;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: #222;
+    padding: 50px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Navigation Styles */
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: cyan;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Image Gallery Styles */
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.image-card {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.image-card:hover {
+    transform: translateY(-10px);
+}
+
+.image-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-card h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+/* Timeline Styles */
+.timeline {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.timeline-event {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: left;
+}
+
+.timeline-event h3 {
+    font-size: 1.8rem;
+}
+
+/* Shop Styles */
+.shop-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.shop-item {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.shop-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #bbb;
+    padding: 20px;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>The Museum of Forgotten Futures</h1>
+            <p>Explore visions of the future that never came to be.</p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#timeline">Time Capsule</a></li>
+            <li><a href="#visionaries">Visionaries</a></li>
+            <li><a href="#shop">Future-Proof Shop</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Sections -->
+    <div class="main-content">
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <h2>Gallery of Missed Futures</h2>
+            <p class="description">Step into the world of retro-futuristic art, concepts, and predictions.</p>
+            <div class="image-gallery">
+                <div class="image-card">
+                    <img src="https://via.placeholder.com/300" alt="Flying Cars">
+                    <h3>Flying Cars</h3>
+                    <p>Explore the world where flying cars were supposed to be the norm by now.</p>
+                </div>
+                <div class="image-card">
+                    <img src="https://via.placeholder.com/300" alt="Robot Butlers">
+                    <h3>Robot Butlers</h3>
+                    <p>Meet the robots that were supposed to serve us in our futuristic homes.</p>
+                </div>
+                <div class="image-card">
+                    <img src="https://via.placeholder.com/300" alt="Lunar Colonies">
+                    <h3>Lunar Colonies</h3>
+                    <p>See the dream of living on the Moon in luxury as we once imagined.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Time Capsule Section -->
+        <section id="timeline" class="section">
+            <h2>The Time Capsule</h2>
+            <p class="description">Where predictions came true... and where they didn't.</p>
+            <div class="timeline">
+                <div class="timeline-event">
+                    <h3>1960s: The Jetpack</h3>
+                    <p>Everyone thought we'd be zooming around in jetpacks by now. Still waiting...</p>
+                </div>
+                <div class="timeline-event">
+                    <h3>1980s: The Personal Robot</h3>
+                    <p>From Rosie the Robot to real-life models, we were promised personal assistants. Where are they?</p>
+                </div>
+                <div class="timeline-event">
+                    <h3>2000s: The Flying Car</h3>
+                    <p>It’s not quite the future we envisioned, but we’re getting closer to self-driving cars.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visionaries Section -->
+        <section id="visionaries" class="section">
+            <h2>Meet the Dreamers</h2>
+            <p class="description">Futurists, designers, and thinkers who shaped our visions of tomorrow.</p>
+            <div class="visionary-list">
+                <div class="visionary">
+                    <img src="https://via.placeholder.com/150" alt="Buckminster Fuller">
+                    <h3>Buckminster Fuller</h3>
+                    <p>A visionary of the 20th century, Fuller imagined a sustainable future that still influences us today.</p>
+                </div>
+                <div class="visionary">
+                    <img src="https://via.placeholder.com/150" alt="Ray Kurzweil">
+                    <h3>Ray Kurzweil</h3>
+                    <p>Kurzweil's predictions about AI and the singularity have shaped modern technology.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shop Section -->
+        <section id="shop" class="section">
+            <h2>The Future-Proof Shop</h2>
+            <p class="description">Collectibles and futuristic items that never made it to the market.</p>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <img src="https://via.placeholder.com/150" alt="Moon Shoes">
+                    <h3>Moon Shoes</h3>
+                    <p>These shoes were designed to make you bounce like an astronaut on the Moon. Never hit the shelves.</p>
+                </div>
+                <div class="shop-item">
+                    <img src="https://via.placeholder.com/150" alt="Flying Car Model">
+                    <h3>Flying Car Model</h3>
+                    <p>A collector's model of the flying cars we were promised. Still flying... in our imaginations.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 The Museum of Forgotten Futures. All rights reserved.</p>
+    </footer>
+<script>
+    // Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+</script>
+</body>
+</html>
